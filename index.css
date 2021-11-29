@@ -1,0 +1,43 @@
+body {
+  font-family: Arial;
+}
+.header {
+  background-color: rgba(31, 37, 53, 1);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  padding: 30px;
+  margin: 30px;
+}
+.header-image {
+  height: 50px;
+  width: 50px;
+}
+.header-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.message-button {
+  width: 50%;
+}
+.say-hello-message {
+  font-size: xxx-large;
+}
+
+.awasome {
+  background-color: white;
+  color: black;
+  height: 25px;
+  width: 80px;
+  text-align: center;
+  padding: 10px 15px;
+}
+.components {
+  display: flex;
+  flex-direction: row;
+  color: grey;
+  padding: 10px;
+}
